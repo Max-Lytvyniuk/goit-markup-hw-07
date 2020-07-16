@@ -1,0 +1,130 @@
+footer {
+  max-width: 1600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #2f303a;
+}
+
+.footer {
+  display: flex;
+  align-items: baseline;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+// .logo-blue {
+//   font-family: $font-family-logo;
+//   font-weight: $font-weight-logo;
+//   font-size: $font-size-logo;
+//   line-height: $line-height-logo;
+//   letter-spacing: $primary-letter-spacing;
+
+//   color: $accent-color;
+// }
+
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+
+  width: 231px;
+  margin-right: 69px;
+}
+
+.logo-white {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-family: $font-family-logo;
+  font-weight: $font-weight-logo;
+  font-size: $font-size-logo;
+  line-height: $line-height-logo;
+  letter-spacing: $primary-letter-spacing;
+
+  color: $primary-white-color;
+}
+
+.invite-flex {
+  display: flex;
+  flex-direction: column;
+  margin-right: 94px;
+
+  width: 206px;
+}
+
+.invite-list {
+  display: flex;
+}
+
+.invite-list .invite-item {
+  margin-right: 10px;
+}
+
+.invite-list .invite-item:last-child {
+  margin-right: 0;
+}
+
+.address-str {
+  margin-top: 0;
+  margin-bottom: 0px;
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: $primary-letter-spacing;
+
+  color: $primary-white-color;
+}
+
+.address-contact {
+  margin-top: 0;
+  margin-bottom: 9px;
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: $primary-letter-spacing;
+
+  color: $text-address-color-footer;
+}
+
+.invite {
+  margin-top: 0;
+  margin-bottom: 21px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: $primary-letter-spacing;
+  text-transform: uppercase;
+
+  color: $primary-white-color;
+}
+
+.invite-border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    fill: $primary-white-color;
+  }
+}
+
+.invite-icon {
+  width: 20px;
+  height: 20px;
+}
