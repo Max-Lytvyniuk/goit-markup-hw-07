@@ -1,0 +1,19 @@
+.logo {
+  font-family: $font-family-logo;
+  font-weight: $font-weight-logo;
+  font-size: $font-size-logo;
+  line-height: $line-height-logo;
+  letter-spacing: $primary-letter-spacing;
+
+  color: $primary-black-color;
+}
+
+.logo-blue {
+  font-family: $font-family-logo;
+  font-weight: $font-weight-logo;
+  font-size: $font-size-logo;
+  line-height: $line-height-logo;
+  letter-spacing: $primary-letter-spacing;
+
+  color: $accent-color;
+}
