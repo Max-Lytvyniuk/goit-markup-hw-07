@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,QAAQ,AAAC,CACP,UAAU,CAAE,CAAC,CACb,aAAa,CAAE,IAAI,CACpB,AAED,AAAA,aAAa,AAAC,CACZ,OAAO,CAAE,IAAI,CACb,SAAS,CAAE,IAAI,CAChB",
-    "sources": [
-        "../sass/components/clients.scss"
-    ],
-    "names": [],
-    "file": "clients.min.css"
-}
