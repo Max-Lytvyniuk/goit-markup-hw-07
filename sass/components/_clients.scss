@@ -7,11 +7,14 @@
   margin-top: 0;
   margin-bottom: 50px;
 
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+  // font-weight: 700;
+  // font-size: 36px;
+  // line-height: 1.17;
+  // letter-spacing: $primary-letter-spacing;
+
+  @include fon-param(700, 36px);
+
   text-align: center;
-  letter-spacing: $primary-letter-spacing;
 
   color: $tittle-text-color;
 }

@@ -29,10 +29,13 @@ footer {
   margin-bottom: 10px;
 
   font-family: $font-family-logo;
-  font-weight: $font-weight-logo;
-  font-size: $font-size-logo;
-  line-height: $line-height-logo;
-  letter-spacing: $primary-letter-spacing;
+
+  // font-weight: $font-weight-logo;
+  // font-size: $font-size-logo;
+  // line-height: $line-height-logo;
+  // letter-spacing: $primary-letter-spacing;
+
+  @include font-param(700, 22px, 1.18);
 
   color: $primary-white-color;
 }
@@ -62,9 +65,12 @@ footer {
   margin-bottom: 0px;
 
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: $primary-letter-spacing;
+
+  // font-size: 14px;
+  // line-height: 1.71;
+  // letter-spacing: $primary-letter-spacing;
+
+  @include font-param(400);
 
   color: $primary-white-color;
 }
@@ -74,9 +80,12 @@ footer {
   margin-bottom: 9px;
 
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: $primary-letter-spacing;
+
+  // font-size: 14px;
+  // line-height: 1.71;
+  // letter-spacing: $primary-letter-spacing;
+
+  @include font-param(400);
 
   color: $text-address-color-footer;
 }
@@ -85,10 +94,13 @@ footer {
   margin-top: 0;
   margin-bottom: 21px;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: $primary-letter-spacing;
+  // font-weight: 700;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: $primary-letter-spacing;
+
+  @include font-param(700, 14px, 1.14);
+
   text-transform: uppercase;
 
   color: $primary-white-color;
@@ -123,10 +135,13 @@ footer {
 .subscribe {
   margin-top: 0;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: $primary-letter-spacing;
+  // font-weight: 700;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: $primary-letter-spacing;
+
+  @include font-param(700, 14px, 1.14);
+
   text-transform: uppercase;
 
   color: $primary-white-color;

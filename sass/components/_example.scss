@@ -7,11 +7,14 @@
   margin-bottom: 50px;
 
   color: $tittle-text-color;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
   text-align: center;
-  letter-spacing: $primary-letter-spacing;
+
+  // font-weight: 700;
+  // font-size: 36px;
+  // line-height: 1.17;
+  // letter-spacing: $primary-letter-spacing;
+
+  @include font-param(700, 36px);
 }
 
 .example-list {
@@ -51,10 +54,13 @@
   margin-top: 0;
   margin-bottom: 0;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  // font-weight: 700;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: 0.03em;
+
+  @include font-param(700, 14px, 1.14);
+
   text-transform: uppercase;
 
   color: $primary-white-color;

@@ -33,12 +33,16 @@
   margin-left: auto;
   margin-right: auto;
 
-  color: $primary-white-color;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
+  // font-weight: 900;
+  // font-size: 44px;
+  // line-height: 1.36;
+  // letter-spacing: 0.06em;
+
+  @include form-param(900, 44px, 1.36, 0.06em);
+
   text-transform: uppercase;
+
+  color: $primary-white-color;
 }
 
 .button.primary {

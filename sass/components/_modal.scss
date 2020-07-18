@@ -46,11 +46,13 @@
   text-align: center;
 
   font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.5;
-  letter-spacing: $primary-letter-spacing;
 
+  // font-weight: 700;
+  // font-size: 20px;
+  // line-height: 1.5;
+  // letter-spacing: $primary-letter-spacing;
+
+  @include font-param(700, 20px, 1.5);
   color: $tittle-text-color;
 }
 

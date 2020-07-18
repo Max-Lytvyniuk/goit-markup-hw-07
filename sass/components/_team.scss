@@ -41,11 +41,15 @@
 
   justify-content: space-evenly;
 
-  color: $primary-text-color;
-  font-size: 16px;
+  // font-size: 16px;
+  // line-height: 1.19;
+  // letter-spacing: $primary-letter-spacing;
+
+  @include font-param(400, 16px, 1.19);
+
   text-align: center;
-  line-height: 1.19;
-  letter-spacing: $primary-letter-spacing;
+
+  color: $primary-text-color;
 }
 
 .team-tittle {
@@ -54,21 +58,26 @@
 
   justify-content: space-evenly;
 
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+  // font-weight: 700;
+  // font-size: 36px;
+  // line-height: 1.17;
+  // letter-spacing: $primary-letter-spacing;
+
+  @include font-param(700, 36px);
+
   text-align: center;
-  letter-spacing: $primary-letter-spacing;
 }
 
 .team-name {
   margin-top: 30px;
   margin-bottom: 10px;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: $primary-letter-spacing;
+  // font-weight: 500;
+  // font-size: 16px;
+  // line-height: 1.19;
+  // letter-spacing: $primary-letter-spacing;
+
+  @include font-param(500, 16px, 1.19);
 }
 
 .social-list {

@@ -31,10 +31,12 @@
   padding-top: 32px;
   padding-bottom: 32px;
 
-  font-weight: $font-weight-main-nav;
-  font-size: $font-size-main-nav;
-  line-height: $line-height-main-nav;
-  letter-spacing: $letter-spacing-main-nav;
+  // font-weight: $font-weight-main-nav;
+  // font-size: $font-size-main-nav;
+  // line-height: $line-height-main-nav;
+  // letter-spacing: $letter-spacing-main-nav;
+
+  @include font-param(500, 14px, 1.14, 0.02em);
 
   color: $tittle-text-color;
 
@@ -75,10 +77,13 @@
 
 .auth-nav .link {
   font-style: normal;
-  font-weight: $font-weight-main-nav;
-  font-size: $font-size-main-nav;
-  line-height: $line-height-main-nav;
-  letter-spacing: $letter-spacing-main-nav;
+
+  // font-weight: $font-weight-main-nav;
+  // font-size: $font-size-main-nav;
+  // line-height: $line-height-main-nav;
+  // letter-spacing: $letter-spacing-main-nav;
+
+  @include font-param(500, 14px, 1.14, 0.02em);
 
   color: $primary-text-color;
 
