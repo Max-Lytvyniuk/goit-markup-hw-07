@@ -16,16 +16,6 @@ footer {
   padding-bottom: 60px;
 }
 
-// .logo-blue {
-//   font-family: $font-family-logo;
-//   font-weight: $font-weight-logo;
-//   font-size: $font-size-logo;
-//   line-height: $line-height-logo;
-//   letter-spacing: $primary-letter-spacing;
-
-//   color: $accent-color;
-// }
-
 .footer-flex {
   display: flex;
   flex-direction: column;
@@ -169,25 +159,29 @@ footer {
 }
 
 .subscribe-button {
+  @extend %primary-button;
   display: flex;
-  align-items: center;
-  text-align: center;
-
-  min-width: 130px;
   padding: 10px 29px;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: 1px solid transparent;
-
-  color: $primary-white-color;
-  background-color: $accent-color;
 }
+
+// display: flex;
+//   align-items: center;
+//   text-align: center;
+
+//   min-width: 130px;
+//   padding: 10px 29px;
+
+//   font-weight: 700;
+//   font-size: 16px;
+//   line-height: 1.87;
+//   letter-spacing: 0.06em;
+
+//   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+//   border-radius: 4px;
+//   border: 1px solid transparent;
+
+//   color: $primary-white-color;
+//   background-color: $accent-color;
 
 .subscribe-text {
   margin-right: 10px;
